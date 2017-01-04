@@ -16,6 +16,9 @@ namespace _6_Enum
             Console.WriteLine(name);
             season = (SEASON)Enum.Parse(
                 typeof(SEASON), "Spring");
+
+
+
             Console.WriteLine(season);
             Console.WriteLine((int)season);
         }
